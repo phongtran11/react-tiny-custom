@@ -9,7 +9,7 @@ module.exports = {
   },
   entry: { index: './src/index.tsx' },
 
-  mode: process.env.NODE_ENV,
+  mode: 'production',
   module: {
     rules: [
       {
